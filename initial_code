@@ -121,6 +121,7 @@ class Game:
       self.surface.blit(score, (800, 10))
  
  
+ 
    def show_game_over(self):
       self.surface.fill(BACKGROUND_COLOR)
       font = pygame.font.SysFont('arial', 30)
